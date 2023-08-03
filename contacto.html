@@ -3,28 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/personalTransparente1.png" >
     <title>Contacto</title>
 </head>
 <body>
-    <h1>CONTACTO</h1>
-    <h2>Ingresá tus datos y motivo por el cual necesitás ayuda y te responderé en la brevedad: </h2>
-    <img src="./assets/img/mail.jpg" height="200px" alt="email">
-    <div class="form">
-        <label for="fname">Nombre:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Apellido:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Celular:</label><br>
-        <input type="number" id="celular" name="celular"><br>
-        <label for="lname">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="consulta">Consulta</label><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-        <button type="button">Enviar</button>
-        <button><a href="./index.html">Volver al inicio</a></button>
-        
-    </div>
+    <header>
+        <h1>CONTACTO</h1>
+        <img src="./assets/img/mail.jpg" width="200" alt="email">
+    </header>
+    <nav>
+        <a href="./index.html">Sobre mí</a>
+        <a href="https://github.com/vstecnic" target="_blank">Experiencia</a>
+        <a href="#">Contacto</a>
+        <a href="./assets/img/CvJGSV.pdf">Descargar CV</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Ingresá tus datos y motivo por el cual necesitás ayuda y te responderé en la brevedad: </h2>
+            
+            <div>
+                <p>Nombre</p>
+                <input type="text"><br>
+                <p>Apellido</p>
+                <input type="text"><br>
+                <p>Número de contacto (opcional)</p>
+                <input type="number"><br>
+                <p>Email</p>
+                <input type="email"><br>
+                <p>Escríbeme tu consulta</p><br>
+                <textarea name="consulta"></textarea><br>
+                <button type="button">Enviar</button>
+                <a href="./index.html">
+                    <input type="button" value="Volver al Inicio">
+                </a>
+            </div>
+        </section>    
+    </main>
 
-
+    <footer>
+        <p>Sitio web publicado por &copy;Juan Gabriel Soto Valenzuela</p>
+        <p>Todos los derechos reservados -2023-</p>
+   </footer>
 </body>
 </html>
